@@ -1,9 +1,15 @@
+<% fillings = ["Shreemp", "Cheeken", "Rice"] %>
+
+
+
+
+
 <h1>I love tacos!<h1>
 
 <p>Flavors</p>
 
 <ul>
-  <li>Shreemp</li>
-  <li>Cheeken</li>
-  <li>Rice</li>
+  <% for filling in fillings %>
+    <li><%= filling %></li>
+  <% end %>
 </ul>
